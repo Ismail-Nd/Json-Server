@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Json</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="flex items-center justify-between p-4 bg-gray-800 text-white">
+        <div class="text-lg font-bold">My Blog</div>
+        <div>
+          <a href="#" class="px-4 py-2 hover:bg-gray-700 rounded">Home</a>
+          <a href="#" class="px-4 py-2 hover:bg-gray-700 rounded">About</a>
+          <a href="#" class="px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
+          <a href="./create.html">Create Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <form class="search flex justify-center items-center p-20 mt-4 mb-4">
+      <!-- <label for="term" class="mr-2">Search:</label> -->
+      <input type="text" name="term" placeholder="Search..." class="border border-gray-300 p-2 mb-4" />
+    </form>
+
+    <div class="blogs">
+      <!-- Blogs Here -->
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

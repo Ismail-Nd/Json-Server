@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="flex items-center justify-between p-4 bg-gray-800 text-white">
+            <div class="text-lg font-bold">Create Blog</div>
+            <div>
+                <a href="./index.html" class="px-4 py-2 hover:bg-gray-700 rounded">Home</a>
+                <a href="#" class="px-4 py-2 hover:bg-gray-700 rounded">About</a>
+                <a href="#" class="px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
+                <a href="./create.html">Create Blog</a>
+            </div>
+        </div>
+
+    <form >
+        <div class="container mx-auto mt-10">
+            <h1 class="text-2xl font-bold mb-4">Create a New Blog Post</h1>
+            <label for="title" class="block mb-2">Title:</label>
+            <input type="text" name="title" class="border border-gray-300 p-2 w-full mb-4" required>
+
+            <label for="content" class="block mb-2">Content:</label>
+            <textarea name="content" rows="10" class="border border-gray-300 p-2 w-full mb-4" required></textarea>
+
+            <button class="bg-blue-500 text-white px-4 py-2 rounded">Create Blog Post</button>
+        </div>
+    </form>
+    <script src="./js/create.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script> -->
+</body>
+</html>
